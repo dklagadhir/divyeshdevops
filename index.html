@@ -28,8 +28,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
+<li><a href="#architecture">Cloud Architecture</a></li>
 <li><a href="#contact">Contact</a></li>
-
 </ul>
 
 <div class="theme-toggle" id="themeToggle">
@@ -64,14 +64,15 @@ Specialized in Docker, Kubernetes, Terraform and CI/CD automation
 using Jenkins and GitHub Actions.
 
 </p>
-
+</br>
 <div class="hero-buttons">
 
 <a href="#projects" class="btn btn-primary">View Projects</a>
 
-<a href="Divyesh_Lagadhir_Resume.pdf"
+<a href="https://divyeshdevops.s3.us-east-1.amazonaws.com/Divyesh_Lagadhir_Devops.pdf"
 class="btn btn-secondary"
-download>
+target="_blank"
+rel="noopener">
 Download Resume
 </a>
 
@@ -81,16 +82,23 @@ Download Resume
 
 <div class="hero-image">
 
-<div class="floating-card">
+<div class="floating-card card1">
 <i class="fab fa-docker"></i>
 </div>
 
-<div class="floating-card">
+<div class="floating-card card2">
 <i class="fab fa-aws"></i>
 </div>
 
-<div class="floating-card">
+<div class="floating-card card3">
 <i class="fas fa-infinity"></i>
+</div>
+
+<div class="floating-card card4">
+<i class="fab fa-microsoft"></i>
+</div>
+
+
 </div>
 
 </div>
@@ -303,6 +311,143 @@ Implemented monitoring using Prometheus and Grafana.
 
 </section>
 
+<!-- ARCHITECTURE -->
+
+<section id="architecture" class="architecture">
+
+<div class="container">
+
+<h2 class="section-title">Cloud Architecture</h2>
+
+<p class="architecture-desc">
+Here are some of the DevOps architectures I have designed and deployed
+using AWS, Kubernetes and CI/CD automation.
+</p>
+
+<div class="architecture-grid">
+
+<!-- CI/CD PIPELINE -->
+
+<div class="architecture-card">
+
+<h3>CI/CD Pipeline Architecture</h3>
+
+<div class="architecture-diagram">
+
+<div class="arch-item">
+<i class="fab fa-github"></i>
+<p>GitHub</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-code-branch"></i>
+<p>Jenkins</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fab fa-docker"></i>
+<p>Docker Build</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-dharmachakra"></i>
+<p>Kubernetes</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CLOUD INFRASTRUCTURE -->
+
+<div class="architecture-card">
+
+<h3>AWS Cloud Infrastructure</h3>
+
+<div class="architecture-diagram">
+
+<div class="arch-item">
+<i class="fas fa-globe"></i>
+<p>Route53</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-network-wired"></i>
+<p>Load Balancer</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-dharmachakra"></i>
+<p>EKS</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-database"></i>
+<p>RDS</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- MONITORING STACK -->
+
+<div class="architecture-card">
+
+<h3>Monitoring & Observability</h3>
+
+<div class="architecture-diagram">
+
+<div class="arch-item">
+<i class="fas fa-chart-line"></i>
+<p>Prometheus</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-chart-bar"></i>
+<p>Grafana</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-bell"></i>
+<p>Alerts</p>
+</div>
+
+<span class="arrow">→</span>
+
+<div class="arch-item">
+<i class="fas fa-envelope"></i>
+<p>Email / Slack</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 <!-- CONTACT -->
 
 <section id="contact" class="contact">
@@ -361,7 +506,7 @@ Implemented monitoring using Prometheus and Grafana.
 
 </div>
 
-<form class="contact-form">
+<!-- <form class="contact-form">
 
 <input type="text" placeholder="Your Name" required>
 
@@ -373,7 +518,7 @@ Implemented monitoring using Prometheus and Grafana.
 Send Message
 </button>
 
-</form>
+</form> -->
 
 </div>
 
